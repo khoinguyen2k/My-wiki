@@ -12,7 +12,7 @@ Viết ít code chạy thử, so với khi sử Chrome thì thêm câu lệnh v�
 (Lưu ý: chỗ options.setBinary(path) thay thế 'path' thành đường dẫn đến file Cốc Cốc.exe của bạn
 Đơn giản thì phải chuột vào Cốc Cốc Shortcut -> open file location
 
-
+Chỗ System.setProperty() cũng cần thay thế đường dẫn hợp lý
 )
 
 Code ví dụ:
