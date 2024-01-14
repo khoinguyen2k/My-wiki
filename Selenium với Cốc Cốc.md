@@ -41,4 +41,5 @@ Code ví dụ:
        }
     }
 
-Selenium sẽ tự tìm phiên bản driver gần nhất để khớp với Cốc Cốc
+Selenium sẽ tự tìm phiên bản driver gần nhất để khớp với Cốc Cốc.
+Có thể kiên trì chọn ra phiên bản đúng hoặc cứ để thế.
