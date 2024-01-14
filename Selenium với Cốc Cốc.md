@@ -25,18 +25,18 @@ Code ví dụ:
        public static void main(String[] args) {
 
     //replace with your path
-          System.setProperty("webdriver.chrome.driver", "D:/Downloads/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:/Downloads/chromedriver.exe");
 
-		  ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 
     //replace with your path
-		  options.setBinary("C:/Users/Admin/AppData/Local/CocCoc/Browser/Application/browser.exe");
-
-		  WebDriver driver = new ChromeDriver(options);
-    
-	      driver.get("https://www.google.com");
-	    
-	      driver.quit();
+		options.setBinary("C:/Users/Admin/AppData/Local/CocCoc/Browser/Application/browser.exe");
+		
+		WebDriver driver = new ChromeDriver(options);
+		
+		driver.get("https://www.google.com");
+		
+		driver.quit();
 
        }
     }
