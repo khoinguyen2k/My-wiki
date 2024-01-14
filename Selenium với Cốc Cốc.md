@@ -1,8 +1,9 @@
-
+## Vấn đề
 Vì Cốc Cốc sử dụng nhân Chromium nên có thể sử dụng [Chrome Driver](https://chromedriver.chromium.org/downloads) để khởi chạy Cốc Cốc trong Selenium.
 
 Vấn đề là phải tìm đúng phiên bản Chrome Driver cho Cốc Cốc.
 
+## Giải pháp
 Đầu tiên kiểm tra phiên bản hiện tại của Cốc Cốc. Vào Cài đặt -> Giới thiệu về Cốc Cốc. Ví dụ phiên bản là 115.0.132
 
 Chọn phiên bản Chrome Driver thấp hơn một tẹo, tầm 112.0.5615.49
@@ -42,4 +43,5 @@ Code ví dụ:
     }
 
 Selenium sẽ tự tìm phiên bản driver gần nhất để khớp với Cốc Cốc.
+
 Có thể kiên trì chọn ra phiên bản đúng hoặc cứ để thế.
